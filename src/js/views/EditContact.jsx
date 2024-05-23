@@ -41,20 +41,20 @@ const EditContact = () => {
     return (
         <>
             <form>
-                <div className="mb-3">
+                <div className="mb-3 me-3 ps-3">
                     <label htmlFor="exampleInputName1" className="form-label">Name</label>
                     <input onChange={(e) => setName(e.target.value)} value={name} type="text" className="form-control" id="exampleInputName1" />
                 </div>
-                <div className="mb-3">
+                <div className="mb-3 me-3 ps-3">
                     <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
                     <input onChange={(e) => setEmail(e.target.value)} value={email} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                     <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
-                <div className="mb-3">
+                <div className="mb-3 me-3 ps-3">
                     <label htmlFor="exampleInputPhone1" className="form-label">Phone</label>
                     <input onChange={(e) => setPhone(e.target.value)} value={phone} type="tel" className="form-control" id="exampleInputPhone1" />
                 </div>
-                <div className="mb-3">
+                <div className="mb-3 me-3 ps-3">
                     <label htmlFor="exampleInputAddress1" className="form-label">Address</label>
                     <input onChange={(e) => setAddress(e.target.value)} value={address} type="text" className="form-control" id="exampleInputAddress1" />
                 </div>
